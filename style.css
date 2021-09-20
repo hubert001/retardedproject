@@ -1,0 +1,70 @@
+ody  {
+  background: pink;
+}
+h1  {
+  font-size:xx-large;
+  font-weight:bold;
+  text-align: center;
+  color: white;
+  font-family: "Helvetica Neue", Helvetica, Arial;
+}
+.container {
+   height: 200px;
+   position: relative;
+}
+button {
+   position: center;
+   background-color:palevioletred;
+   border: none;
+   font-size: 28px;
+   color: #FFFFFF;
+   padding: 20px;
+   width: 200px;
+   text-align: center;
+   transition-duration: 0.4s;
+   text-decoration: none;
+   overflow: hidden;
+   cursor: pointer;
+ }
+ button:after {
+   content: "";
+   background: #f1f1f1;
+   display: block;
+   position: absolute;
+   padding-top: 300%;
+   padding-left: 350%;
+   margin-left: -20px !important;
+   margin-top: -120%;
+   opacity: 0;
+   transition: all 0.8s
+ }
+ button:active:after {
+   padding: 0;
+   margin: 0;
+   opacity: 1;
+   transition: 0s
+ }
+.center {
+   margin: 0;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+ }
+
+.idiot-list {
+   text-align: center;
+   font-size:xx-large;
+   color: white;
+   font-family: "Helvetica Neue", Helvetica, Arial;
+}
+img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;align-items: center;
+}
+p {
+   text-align: center;
+   font-size:xx-large;
+   color: b;
+   font-family: "Helvetica Neue", Helvetica, Arial;
+}
